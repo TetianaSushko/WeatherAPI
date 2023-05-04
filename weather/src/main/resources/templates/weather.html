@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:Date="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>Current Weather</title>
+    <title>weather</title>
 </head>
 <body>
 
+<h1> WEATHER APP </h1>
+
+
+  <label> Date: </label>
+<label th:text="${date}"></label><br/>
+
+    <label> City: </label>
+  <label th:text="${city}"></label><br/>
+
+<label> Temp: </label>
+<label th:text="${temp}"></label><br/>
+
+<label> FeelsLike: </label>
+<label th:text="${feelsLike}"></label><br/>
+
+  <br/>
 </body>
 </html>
